@@ -1,0 +1,179 @@
+.splide .splide__arrows {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    width: 100%;
+    justify-content: space-between;
+    height: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(calc(-50% - 32px));
+}
+
+.splide__arrows .splide__arrow {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.12);
+    fill: #ec0000;
+}
+
+.splide .splide__arrows .splide__arrow--prev {
+    transform: scaleX(-1);
+}
+
+.splide .splide__arrows .splide__arrow:disabled {
+    background-color: #D9D9D9;
+    fill: #595959;
+}
+
+.splide .splide__pagination {
+    gap: 4px;
+    padding: 0;
+    margin-top: 32px;
+}
+
+.splide .splide__pagination .splide__pagination__page.is-active {
+    width: 16px;
+    border-radius: 5px;
+    background-color: #191919;
+}
+
+.splide .splide__pagination .splide__pagination__page {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 0px;
+    outline: none;
+    padding: 0;
+}
+
+.section-acerca-de {
+    padding-bottom: 96px;
+}
+
+.section-acerca-de .container-acerca-de {
+    padding: 0;
+}
+
+.section-acerca-de .splide {
+    padding: 0 40px;
+}
+
+.section-acerca-de .splide__slide .item {
+    position: relative;
+    box-shadow: 0px 6px 14px 0px #9999994D;
+}
+
+.section-acerca-de .splide__slide .item .card-bg {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+}
+
+.section-acerca-de .splide__slide .item .card {
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.section-acerca-de .splide__slide .item .card .card-body {
+    padding: 0px 16px 24px 16px;
+}
+
+.section-acerca-de .splide__slide .item .title {
+    font-family: 'Santander Text';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.section-acerca-de .splide__slide .item .description {
+    font-family: 'Santander Micro Text';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.section-acerca-de .splide__slide .item .list {
+    max-width: max-content;
+    margin: 4px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.section-acerca-de .splide__slide .item .list .description {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-acerca-de .splide__slide .item .btn-conoce-mas {
+    font-family: 'Santander Micro Text';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    color: #ec0000;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+@media(max-width: 767px) {
+    .section-acerca-de .splide {
+        padding: 0;
+    }
+
+    .splide .splide__arrows {
+        position: relative;
+        justify-content: end;
+        gap: 32px;
+        height: auto;
+        transform: none;
+        left: 0;
+        top: 0;
+        margin-bottom: 16px;
+    }
+}
+
+@media(max-width: 575px) {
+    .section-acerca-de {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .section-acerca-de .splide__slide .item .card .card-body {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .section-acerca-de .titulo,
+    .section-acerca-de .descripcion,
+    .splide .splide__arrows {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
