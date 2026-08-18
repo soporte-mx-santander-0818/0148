@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="21px" viewBox="0 0 29 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer-Copy" transform="translate(-1009.000000, -286.000000)">
+            <g id="Group" transform="translate(1009.000000, 286.000000)">
+                <g id="Group-3" transform="translate(0.000000, -0.000000)">
+                    <polygon id="Clip-2" points="0 0.169496884 28.8288128 0.169496884 28.8288128 20.8205128 0 20.8205128"></polygon>
+                    <path d="M28.8288128,14.0661817 C28.8288128,17.7968594 27.5861737,20.8205352 23.9546323,20.8205352 L5.26336917,20.8205352 C1.63008346,20.8205352 -2.18045113e-05,17.7968594 -2.18045113e-05,14.0661817 L-2.18045113e-05,6.92317872 C-2.18045113e-05,3.1927249 1.47548947,0.169496884 5.10812105,0.169496884 L24.107918,0.169496884 C27.7414218,0.169496884 28.8288128,3.1927249 28.8288128,6.92317872 L28.8288128,14.0661817 Z" id="Fill-1" fill="#898F9C"></path>
+                </g>
+                <polygon id="Fill-4" fill="#FFFFFF" points="11.1538462 5.94871795 19.3333333 10.411206 11.1538462 14.8717949"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
